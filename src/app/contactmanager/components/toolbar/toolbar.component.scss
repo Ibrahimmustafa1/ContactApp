@@ -1,0 +1,25 @@
+$minWidth:56px;
+.sidenav-toggle{
+    display: none;
+    padding: 0;
+    margin: 0;
+    min-width: $minWidth;
+}
+@media(max-width:720px){
+    .sidenav-toggle{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+    }
+}
+
+mat-icon{
+    font-size: 30px;
+    height:$minWidth;
+    width:$minWidth;
+    line-height:$minWidth;
+    color:white;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }

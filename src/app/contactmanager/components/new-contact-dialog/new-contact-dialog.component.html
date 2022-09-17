@@ -1,0 +1,30 @@
+<h2 mat-dialog-title>Add New Contact</h2>
+<mat-dialog-content>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Name</mat-label>
+        <input required [(ngModel)]="user.name" matInput>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Bio</mat-label>
+        <textarea required [(ngModel)]="user.bio" matInput></textarea>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>BirthDate</mat-label>
+        <input required [(ngModel)]="user.birthDate" matInput [matDatepicker]="picker">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-button color="primary" (click)="save()">
+        <mat-icon>save</mat-icon> Save
+    </button>
+    <button mat-button color="primary" (click)="dismiss()">
+        <mat-icon>Cancel</mat-icon> Cancel
+    </button>
+
+</mat-dialog-actions>
