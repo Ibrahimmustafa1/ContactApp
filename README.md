@@ -1,7 +1,7 @@
 # Contact Manager
-it is an angular app using angular material 
-#Demo
-https://ibrahimmustafa1.github.io/index
+#### it is an angular app using angular material 
+# Demo
+### https://ibrahimmustafa1.github.io/index 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 ## Development server
