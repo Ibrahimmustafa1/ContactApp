@@ -1,5 +1,5 @@
 # Contact Manager
-#### it is an angular app using angular material 
+#### it is an angular app using angular material it allows u to create contacts and navigate between them
 # Demo
 ### https://ibrahimmustafa1.github.io/index 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
