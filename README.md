@@ -1,7 +1,7 @@
 # Contact Manager
 #### it is an angular app using angular material it allows u to create contacts and navigate between them
-# DENO
-<a href="https://ibrahimmustafa1.github.io/ContactManager/">Contact App</a>
+# DEMO
+<a href="https://ibrahimmustafa1.github.io/ContactManager/">Contact App</a> <br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 ## Development server
